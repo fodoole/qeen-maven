@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "ai.qeen",
+    "module": "qeensdk",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qeensdk-1.8.0.aar",
+          "url": "qeensdk-1.8.0.aar",
+          "size": 65137,
+          "sha512": "2879bd9540f90c1ab6c9064f7e3554d41144e38f0b6909a075d3eaf56fe6d32b0bb11cb9baff85fc560a82a04be4d2cd0189172ab7e14af79ff52337ed852718",
+          "sha256": "4ac55aaa50e668d82e7873bc2f6d7bf55a07f634e851cdab9c07cfcd0ae5e20a",
+          "sha1": "8cd403737948c450b0ae988701651cdabe113854",
+          "md5": "ad7dd7e08382b45d4569393fe58adbd5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.posthog",
+          "module": "posthog-android",
+          "version": {
+            "requires": "3.20.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qeensdk-1.8.0.aar",
+          "url": "qeensdk-1.8.0.aar",
+          "size": 65137,
+          "sha512": "2879bd9540f90c1ab6c9064f7e3554d41144e38f0b6909a075d3eaf56fe6d32b0bb11cb9baff85fc560a82a04be4d2cd0189172ab7e14af79ff52337ed852718",
+          "sha256": "4ac55aaa50e668d82e7873bc2f6d7bf55a07f634e851cdab9c07cfcd0ae5e20a",
+          "sha1": "8cd403737948c450b0ae988701651cdabe113854",
+          "md5": "ad7dd7e08382b45d4569393fe58adbd5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "qeensdk-1.8.0-sources.jar",
+          "url": "qeensdk-1.8.0-sources.jar",
+          "size": 12603,
+          "sha512": "013d89abb12cda2c0c16c6f7e29d19ea5225b72efcf60e7727e0bf637eeb96d946cc2429e1e44dd2f8b371d127f5eb7bc87d8da62c04c88af2900cada749e588",
+          "sha256": "aa08f13b0e597d00c205e41d5577767bff1000ccb6c48befa6bfead71135b352",
+          "sha1": "452722292552db4cf33ef1a6e57f10dc574fd60d",
+          "md5": "0e4b667dd1b582f73ae1e59c1e6788cc"
+        }
+      ]
+    }
+  ]
+}
